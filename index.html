@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electronic Music Weekly</title>
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+  @import url('https://fonts.googleapis.com/css?family=Syncopate')
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color:black;
+}
+.song1{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	color:rgb(47, 139, 173);
+	width:32%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+}
+.header{
+	color:rgb(82, 168, 158);
+	text-align:center;
+	background-color:rgb(99, 99, 99);
+	height:110px;
+	font-family:"Press Start 2P", sans-serif;
+	font-size:20px;
+	position:absolute;
+	width:99%;
+	border: 2px solid;
+    border-radius: 25px;
+}
+.song2{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	color:rgb(65, 47, 173);
+	width:32%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+	left:34%;
+}
+.monthsongs{
+	background-color:rgb(36, 37, 38);
+	border:2px solid;
+	border-radius:25px;
+	border-color:rgb(128, 47, 173);
+	display:inline-block;
+	position:absolute;
+	top:300px;
+	width:49%;
+	height:75%;
+	left:0;
+}
+.song3{
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	color:rgb(48, 162, 173);
+	width:31%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+	left:68%;
+	height:220px;
+}
+.bestmonth{
+	text-align:center;
+	color:rgb(82, 168, 158);
+	top:250px;
+}
+.song4{
+	display:inline-block;
+	position:absolute;
+	top:225px;
+	color:rgb(47, 110, 173);
+	width:32%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+}
+.song5{
+	display:inline-block;
+	position:absolute;
+	top:225px;
+	color:rgb(47, 63, 173);
+	width:32%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+	left:34%;
+}
+.song6{
+	display:inline-block;
+	position:absolute;
+	top:225px;
+	color:rgb(128, 47, 173);
+	width:31%;
+	font-family:"Proxima Nova", "Open Sans";
+	background-color:rgb(99,99,99);
+	border:2px solid;
+	border-radius:25px;
+	text-align: center;
+	left:68%;
+
+}
+.weeksongs{
+	background-color:rgb(36, 37, 38);
+	border:2px solid;
+	border-radius:25px;
+	border-color:rgb(128, 47, 173);
+	display:inline-block;
+	position:absolute;
+	top:300px;
+	width:49%;
+	height:75%;
+	right:0;
+}
+#menu{
+	display:inline-block;
+	position:absolute;
+	top:150px;
+	color:rgb(82, 168, 158);
+	background-color:rgb(99, 99, 99);
+		text-align:center;
+		width:98%;
+	padding:10px;
+	border: 2px solid;
+    border-radius: 25px;
+    font-weight:bold;
+}
+#menu li{
+		list-style:none;
+		display: inline-block;
+		background-color: rgb(99, 99, 99);
+	}
+	#menu a{
+		display:block;
+		text-decoration:none;
+		color:rgb(82, 168, 158);
+		font-size:18px;
+		width:170px;
+		line-height:50px;
+		font-family:"Proxima Nova";
+		font-weight:normal;
+		text-decoration:none;
+
+	}
+	html,body{
+		margin:0;
+		padding:0;
+	}
+	#menu li:hover{
+		background-color:rgb(88, 91, 94);
+	}
+	#menu a:hover{
+		color:rgb(97, 47, 173);
+	}
+  </style>
+  </head>
+  <body id="bg">
+  <div class="header"><h1>Electronic Music Weekly</h1></div>
+  <nav id="menu"><ul>	
+  <li><a href="index.html">Home</a></li>
+  <li><a href="bestofthemonth.html">Best Of This Month</a></li>
+  <li><a href="bestoftheweek.html">Best Of This Week</a></li>
+  <li><a href="bestofalltime.html">Best Of All Time</a></li>
+  <li><a href="about.html">About</a></li>
+  </ul></nav>
+  <h2 class="bestmonth">Best of this month.</h2>
+  <div class="monthsongs"><div class="song1"><h3>Jazz Jackrabbit Remix</h3><h4>By: Meganeko</h4>
+  <p>Many know the true intensity of a Meganeko song, because Meganeko can make a song unlike any other. It's fascin...</p>
+  </div>
+  <div class="song2"><h3>Transmission</h3><h4>By: Akira Complex Feat. ARISA</h4>
+  <p>This song was interesting to me, partly because I don't really like vocals in songs, but because I really liked...</p>
+  </div>
+  <div class="song3"><h3>Hyrule Castle (Courage)</h3><h4>By: James Landino</h4>
+  <p>This song was the perfect blend of the old timey sound effects of Link to the Past and the new...</p>
+  </div>
+  <div class="song4"><h3>Milkshake</h3><h4>By: Meganeko</h4>
+  <p>This song was fast paced in the beginning but near the middle of the song it transforms from good to great...</p>
+  </div>
+  <div class="song5"><h3>Empyrean</h3><h4>By: Meganeko</h4>
+  <p>This song was interesting, as someone perfectly describes it in the comments "your songs are great, righ...</p>
+  </div>
+   <div class="song6"><h3>Dungeons and Dragons</h3><h4>By: Space Laces</h4>
+  <p>This song was engaging, it has a harsh sound and good samples, I like how it sounds in general...</p>
+  </div>
+  </div>
+  <div class="weeksongs">
+  	<div class="song1">
+  		<h3>Dog of Wisdom (RED) Remix</h3><h4>By: The Living Tombstone</h4>
+  		<p>This song was intense, the closest comparison I can make between the red and blue remixes is pokem...</p>
+  	</div>
+  	<div class="song2">
+  		<h3>Dog of Wisdom (BLUE) Remix</h3><h4>By: The Living Tombstone</h4>
+  		<p>This is the calmer version of The Living Tombstone's remix of Dog of Wisdom. It has an overall cal...</p>
+  	</div>
+  	<div class="song3">
+  		<h3>CTrix Live @ Blip Festival</h3><h4>By: CTrix</h4>
+  		<p>Many of you may not like to listen to a full live performance but I urge you to listen to this o...</p>
+  	</div>
+  	<div class="song4">
+  		<h3>F*** Gravity</h3><h4>By: Virtual Riot</h4>
+  		<p>This song starts out very slow and calming and at the drop it bursts with energy while still main...</p>
+  	</div>
+  	<div class="song5">
+  		<h3>Dance on the Mars</h3><h4>By: Cameilla</h4>
+  		<p>I love the melody in this, I can just imagine a lights show with this melody. It is simply one o...</p>
+  	</div>
+  	<div class="song6">
+  		<h3>Sugar Rush</h3><h4>By: Nanobii</h4>
+  		<p>With a similar sound to Rainbow Road, this song creates a certain atmosphere that can only be hear...</p>
+  	</div>
+  </div>
+  </body>
+</html>
